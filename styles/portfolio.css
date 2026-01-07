@@ -6,7 +6,6 @@
 
 /* shared styles */
 
-
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -20,6 +19,7 @@
   font-size: 20px;
   font-weight: bold;
   color: white;
+  cursor: pointer;
 }
 
 .color-orange {
@@ -29,8 +29,11 @@
 /* main styles */
 
 header {
-    background-color: #f6d4bc;
+    background-color: #FFF8F3;
     padding-top: 50px;
+    background-image:  url(../images/developer.png), url(../images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -57,4 +60,45 @@ nav .menu a {
   text-decoration: none;
   font-size: 20px;
   color: #474747;
+}
+
+#banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 46px 38px 0px 230px;
+  align-items: center;
+}
+
+.banner-content {
+  width: 585px;
+  align-items: ;
+}
+
+#banner .banner-content h2 {
+  font-size: 45px;
+  color: #474747;
+  font-weight: 600;
+}
+
+#banner .banner-content h1 {
+  font-size: 85px;
+  color: #181818;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.banner-image {
+  width: 584px;
+}
+
+#banner .banner-content p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+#banner .banner-image img {
+  max-width: 584px;
+  vertical-align: middle;
 }
